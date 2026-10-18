@@ -29,7 +29,8 @@ const app = createApp({
 
 const server = createServer((req, res) => {
   const url = req.url ?? '/'
-  if (url.startsWith('/api/')) {
+  if (url === '/TONK/api' || url.startsWith('/TONK/api/') || url.startsWith('/TONK/api?')) req.url = url.slice('/TONK'.length)
+  if ((req.url ?? '').startsWith('/api/')) {
     void app.handle(req, res)
     return
   }

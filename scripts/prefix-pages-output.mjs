@@ -3,7 +3,7 @@ import { extname, join, resolve } from 'node:path'
 
 const base = process.env.NEXT_PUBLIC_BASE_PATH || '/TONK'
 const out = resolve('out')
-const roots = ['img', 'fonts', 'media', 'video', 'runtime', 'data', 'vendor', 'uploads', 'api', '_next']
+const roots = ['img', 'fonts', 'media', 'video', 'runtime', 'data', 'vendor', 'uploads', '_next']
 const textExtensions = new Set(['.html', '.css', '.js', '.json', '.txt', '.svg'])
 
 function rewrite(text) {
