@@ -10,7 +10,9 @@
     "start": "next start --hostname 127.0.0.1",
     "typecheck": "tsc --noEmit",
     "verify": "node scripts/verify-assets.mjs",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "tracker": "node --experimental-strip-types server/index.ts",
+    "tracker:test": "node --experimental-strip-types --test server/app.test.ts"
   },
   "engines": {
     "node": ">=20.9.0"

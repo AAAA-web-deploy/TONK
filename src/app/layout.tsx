@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import Script from 'next/script'
 import { siteConfig } from '@/config/site'
+import { VisitorTracker } from '@/components/VisitorTracker'
 import './globals.css'
 import './overrides.css'
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <head><link rel="stylesheet" href="/fonts/fonts.css" /></head>
     <body>
       <Script src="/runtime/address-bar.js" strategy="beforeInteractive" />
+      <VisitorTracker />
       {children}
     </body>
   </html>

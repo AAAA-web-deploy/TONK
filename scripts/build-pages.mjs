@@ -41,7 +41,7 @@ async function isolatedCopy() {
     recursive: true,
     filter: source => {
       const relative = source.slice(root.length).replaceAll('\\', '/')
-      return !['/node_modules', '/.next', '/.git', '/out', '/.data', '/.pages-hold'].some(folder => relative === folder || relative.startsWith(`${folder}/`))
+      return !['/node_modules', '/.next', '/.git', '/out', '/.data', '/.pages-hold', '/tracker-data'].some(folder => relative === folder || relative.startsWith(`${folder}/`))
     },
   })
   await symlink(resolve(root, 'node_modules'), resolve(project, 'node_modules'), 'junction')

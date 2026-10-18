@@ -26,7 +26,7 @@ export function Hero() {
         <div className={`nav-links${menuOpen ? ' open' : ''}`} id="nav-links" onClick={() => setMenuOpen(false)}>
           <a href="#home">Home</a><a href="#meet">Meet TONK</a><a href="#world">TONK World</a><a href="#memes">Meme Depot</a>
         </div>
-        <a className={`btn-rough nav-trade js-trade${href ? '' : ' off'}`} href={href} aria-disabled={!href} target="_blank" rel="noopener">{href ? 'Trade' : 'Trade soon'}</a>
+        <a className={`btn-rough nav-trade js-trade${href ? '' : ' off'}`} data-link-role="buy" href={href} aria-disabled={!href} target="_blank" rel="noopener">{href ? 'Trade' : 'Trade soon'}</a>
         <button className="nav-menu" id="nav-menu" type="button" aria-label="Menu" aria-expanded={menuOpen} onClick={() => setMenuOpen(value => !value)}><span /><span /><span /></button>
       </nav>
       <div className="hero-inner">
@@ -48,7 +48,7 @@ export function Hero() {
             <span className="ca-value" id="ca-value">{copyLabel || contract || 'Coming soon'}</span>
             <span className="ca-copy" id="ca-copy" hidden={!contract}><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 2h7a2 2 0 0 1 2 2v7h-1.5V4a.5.5 0 0 0-.5-.5H5V2Zm-2 3h7a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm.5 1.5v7h6v-7h-6Z" /></svg></span>
           </button>
-          <a className={`btn-rough js-trade${href ? '' : ' off'}`} id="trade" href={href} aria-disabled={!href} target="_blank" rel="noopener">{href ? 'Trade' : 'Trade (soon)'}</a>
+          <a className={`btn-rough js-trade${href ? '' : ' off'}`} id="trade" data-link-role="buy" href={href} aria-disabled={!href} target="_blank" rel="noopener">{href ? 'Trade' : 'Trade (soon)'}</a>
           <p className="note">{contract ? 'Ethereum mainnet. Only trust the address posted here.' : 'No contract is live yet. Only trust the address posted here.'}</p>
         </div></aside>
       </div>

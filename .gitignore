@@ -4,6 +4,7 @@ node_modules/
 out/
 dist/
 .data/
+tracker-data/
 .env*
 !.env.example
 *.tsbuildinfo
