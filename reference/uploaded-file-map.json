@@ -68,8 +68,8 @@
   {
     "uploaded_filename": "2wqmdvl1egmz4~image~1728x1152~dG9uayBjaGFyZ2luZyBpbnRvIGJhdHRsZQ~RGV0ZXJtaW5lZCBUT05LIHJ1bnMgbWlkLXN0cmlkZSB3aXRoIGhpcyAkIGNsdWIgb3ZlciBoaXMgc2hvdWxkZXIsIFNUT05LIG1lZGFsbGlvbiBzd2luZ2luZyBhbmQgYmlnIGJvb3RzIHN0.jpg",
     "packaged_path": "public/media/2wqmdvl1egmz4-tonk-charging-into-battle.jpg",
-    "sha256": "9cf396481b8b853f4ad065140e5c8a8e6d767627240217c03ba66d2f2058dc46",
-    "bytes": 342056
+    "sha256": "f807dc918e59dd9f3e1d61a76c7e5dc6f46022891a93e38a7a775cbf91203400",
+    "bytes": 231923
   },
   {
     "uploaded_filename": "tonk-teaser-v1.mp4",
@@ -134,7 +134,7 @@
   {
     "uploaded_filename": "2wqmdvjktkur7~image~1728x1152~dG9uayBzdGFuZHMgb24gdGhlIHJ1Z2dlcg~VE9OSyBzdGFuZHMgdHJpdW1waGFudGx5IHdpdGggaGlzICQgY2x1YiBvbiBhIGRlZmVhdGVkIG1hbiBpbiBhIFJVRyBzaGlydCBseWluZyBmYWNlIGRvd24sIGhpcyBTVE9OSyBtZWRhbGxp.jpg",
     "packaged_path": "public/media/2wqmdvjktkur7-tonk-stands-on-the-rugger.jpg",
-    "sha256": "150812af759358c2bcd39ce4d7ae7fb4e599d520fc0a8d66df41b40154c12a1b",
-    "bytes": 353355
+    "sha256": "7d7650a0dcf216ae24436ad604220f82784d09881ee4d862643c58975bd61133",
+    "bytes": 234509
   }
 ]
