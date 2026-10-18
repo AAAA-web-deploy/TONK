@@ -1,0 +1,60 @@
+{
+  "framework": {
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "typescript": "7.0.2",
+    "router": "App Router",
+    "lockfile": "package-lock.json"
+  },
+  "checks": {
+    "production_build": "passed",
+    "typescript": "passed",
+    "behavior_tests": {
+      "passed": 10,
+      "failed": 0
+    },
+    "asset_verification": "passed",
+    "prerendered_homepage_structure": "passed",
+    "original_stylesheet_byte_identical": true,
+    "current_live_stylesheet_unchanged": true,
+    "current_live_gallery_metadata_unchanged": true
+  },
+  "assets": {
+    "public_files": 65,
+    "images": 32,
+    "videos": 3,
+    "font_files": 11,
+    "gallery_items": 19,
+    "original_uploaded_files_verified_by_sha256": 23,
+    "local_asset_references_checked": 53
+  },
+  "browser_qa": {
+    "performed": true,
+    "viewports": ["1440x900", "1920x1080", "390x844"],
+    "device_scale": 1,
+    "pixel_comparison": "hero, reactions, and teaser match after excluding the supplied logo, blank contract, and disabled trade button; gallery column geometry matches",
+    "dynamic_excluded": ["playing gallery videos", "video duration badges until metadata loads"],
+    "not_exercised": [
+      "clipboard permission flows",
+      "browser FFmpeg transcoding"
+    ]
+  },
+  "configuration": {
+    "ethereum_ca": "blank until user supplies it",
+    "logo": "public/img/logo.png",
+    "default_logo_mode": "image",
+    "exact_reference_wordmark_mode": "NEXT_PUBLIC_LOGO_MODE=wordmark"
+  },
+  "backend": {
+    "implementation": "independent Next.js route handlers with filesystem storage",
+    "persistence": "single Node instance with a writable persistent disk",
+    "external_X_and_image_link_imports": "not connected; need independent services",
+    "AI_descriptions": "not connected; manual titles and descriptions work",
+    "Docker": "included but not executed"
+  },
+  "packaging": {
+    "dependencies": "restored using npm ci; node_modules excluded",
+    "build_output": "not included; run npm run build",
+    "generated_files": "excluded"
+  }
+}

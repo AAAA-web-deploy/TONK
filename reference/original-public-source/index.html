@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$TONK</title>
+  <meta name="description" content="Small caveman. Big problems. He thinks he’s STONK.">
+  <link rel="canonical" href="https://tonkfun.lol/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tonkfun.lol/">
+  <meta property="og:site_name" content="$TONK">
+  <meta property="og:title" content="$TONK">
+  <meta property="og:description" content="He thinks he’s STONK. He’s not. $tonkfun.lol">
+  <meta property="og:image" content="https://tonkfun.lol/img/pfp.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://tonkfun.lol/img/hero.jpg">
+  <script>
+    // Decide before first paint whether the $ is already there
+    try {
+      if (sessionStorage.getItem('tonk-dollar') || matchMedia('(prefers-reduced-motion: reduce)').matches)
+        document.documentElement.classList.add('has-dollar')
+    } catch { document.documentElement.classList.add('has-dollar') }
+
+    // In desktop Chrome, line the fake bar up with the real one at any page zoom:
+    // Chrome's toolbar doesn't zoom, so scale the bar back by 1/zoom
+    const ZOOMS = [.25, .33, .5, .67, .75, .8, .9, 1, 1.1, 1.25, 1.5, 1.75, 2, 2.5, 3, 4, 5]
+    const fitBar = () => {
+      const root = document.documentElement
+      const ua = navigator.userAgentData
+      const chrome = ua && !ua.mobile && ua.brands.some(b => b.brand === 'Google Chrome')
+      if (!chrome || outerWidth < 1000) return root.classList.remove('fit')
+      const raw = outerWidth / innerWidth
+      const zoom = ZOOMS.reduce((a, b) => (Math.abs(b - raw) < Math.abs(a - raw) ? b : a))
+      root.style.setProperty('--unzoom', 1 / zoom)
+      // Chrome's 427px is measured from the window edge; the page ends at the scrollbar
+      root.style.setProperty('--sb', `${Math.round((innerWidth - root.clientWidth) * zoom)}px`)
+      root.classList.add('fit')
+    }
+    fitBar()
+    addEventListener('resize', fitBar)
+    addEventListener('DOMContentLoaded', fitBar)
+  </script>
+  <link rel="icon" type="image/png" sizes="64x64" href="/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/icon-round.png">
+  <link rel="apple-touch-icon" href="/img/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Rubik+Dirt&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="bar">
+    <div class="omnibox">
+      <svg class="lock" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 7V5a3.5 3.5 0 0 1 7 0v2h.5A1.5 1.5 0 0 1 13.5 8.5v5A1.5 1.5 0 0 1 12 15H4a1.5 1.5 0 0 1-1.5-1.5v-5A1.5 1.5 0 0 1 4 7h.5Zm1.5 0h4V5a2 2 0 1 0-4 0v2Z"/></svg>
+      <a class="url" id="url" href="https://tonkfun.lol"><span class="dollar" id="dollar">$</span>tonkfun.xyz</a>
+      <button class="reload" id="reload" type="button" aria-label="Reload"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.6 3.2v3.6H10l1.4-1.4A4.5 4.5 0 1 0 12.5 9h1.6a6 6 0 1 1-1.6-4.9l1.1-.9Z"/></svg></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <nav class="nav" aria-label="Main">
+        <a class="logo gold-text" href="#home" aria-label="$TONK">$TONK</a>
+        <div class="nav-links" id="nav-links">
+          <a href="#home">Home</a>
+          <a href="#meet">Meet TONK</a>
+          <a href="#world">TONK World</a>
+          <a href="#memes">Meme Depot</a>
+        </div>
+        <a class="btn-rough nav-trade js-trade off" target="_blank" rel="noopener">Trade soon</a>
+        <button class="nav-menu" id="nav-menu" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </nav>
+
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Meet $TONK</p>
+          <h1 class="headline gold-text">Small caveman.<br><span>Big problems.</span></h1>
+          <div class="story">
+            <p>He thinks he’s <b>STONK</b>.</p>
+            <p>He’s not.</p>
+            <p>Everyone calls him <b>$TONK</b></p>
+            <p>Some even call him tiny <b>$TONK</b></p>
+            <p>He fucking hates that.</p>
+          </div>
+          <div class="hero-cta">
+            <a class="btn-rough" href="#meet">Meet TONK <span aria-hidden="true">→</span></a>
+            <a class="btn-rough dark" href="#memes">Meme Depot <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="hero-art" role="img" aria-label="TONK walking through a dusty canyon at sunset, carrying his bag"></div>
+
+        <aside class="hero-side">
+          <div class="contract">
+            <h2>Contract</h2>
+            <button class="ca" id="ca" type="button" disabled>
+              <span class="ca-value" id="ca-value">Coming soon</span>
+              <span class="ca-copy" id="ca-copy" hidden>
+                <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 2h7a2 2 0 0 1 2 2v7h-1.5V4a.5.5 0 0 0-.5-.5H5V2Zm-2 3h7a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm.5 1.5v7h6v-7h-6Z"/></svg>
+              </span>
+            </button>
+            <a class="btn-rough js-trade off" id="trade" target="_blank" rel="noopener">Trade (soon)</a>
+            <p class="note">No contract is live yet. Only trust the address posted here.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="meet" id="meet">
+      <h2 class="section-title gold-text">Meet $TONK</h2>
+      <div class="moods">
+        <figure class="parchment mood"><img src="/img/moods/grumpy.jpg" alt="TONK looking grumpy" loading="lazy"><figcaption>Grumpy</figcaption></figure>
+        <figure class="parchment mood"><img src="/img/moods/smug.jpg" alt="TONK looking smug" loading="lazy"><figcaption>Smug</figcaption></figure>
+        <figure class="parchment mood"><img src="/img/moods/sleepy.jpg" alt="TONK asleep" loading="lazy"><figcaption>Sleepy</figcaption></figure>
+        <figure class="parchment mood"><img src="/img/moods/furious.jpg" alt="TONK yelling, furious" loading="lazy"><figcaption>Furious</figcaption></figure>
+        <figure class="parchment mood"><img src="/img/moods/shocked.jpg" alt="TONK looking shocked" loading="lazy"><figcaption>Shocked</figcaption></figure>
+        <figure class="parchment mood"><img src="/img/moods/suspicious.jpg" alt="TONK side-eyeing, suspicious" loading="lazy"><figcaption>Suspicious</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="world" id="world">
+      <div class="world-head">
+        <h2 class="section-title gold-text">TONK World</h2>
+        <span class="stamp">Coming soon</span>
+      </div>
+      <div class="episode">
+        <p class="episode-label">Episode 01 · Teaser</p>
+        <div class="player">
+          <video id="teaser" src="https://ahs4x65slgdafklt.public.blob.vercel-storage.com/site/tonk-teaser-v1.mp4" poster="/img/teaser-poster.jpg" preload="none" playsinline controls></video>
+          <button class="play" id="play" type="button" aria-label="Play the teaser"><span></span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="memes" id="memes">
+      <div class="depot-head">
+        <h2 class="section-title gold-text">Meme Depot</h2>
+      </div>
+      <div class="team-bar" id="team-bar" hidden>
+        <span class="team-label">Team mode</span>
+        <span class="team-hint" id="team-hint">Tap × on a meme to delete it</span>
+        <span class="team-actions">
+          <button class="act" id="team-select" type="button">Select</button>
+          <button class="act danger" id="team-delete" type="button" hidden>Delete selected</button>
+          <button class="act" id="team-logout" type="button">Log out</button>
+        </span>
+      </div>
+      <div class="depot-bar">
+        <div class="tabs" id="tabs" role="tablist">
+          <button type="button" data-tab="all" class="on">All</button>
+          <button type="button" data-tab="gif">GIFs</button>
+          <button type="button" data-tab="image">Images</button>
+          <button type="button" data-tab="video">Videos</button>
+        </div>
+        <label class="search">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M7 1.5a5.5 5.5 0 0 1 4.38 8.83l3.15 3.14-1.06 1.06-3.14-3.15A5.5 5.5 0 1 1 7 1.5Zm0 1.5a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z"/></svg>
+          <input id="search" type="search" placeholder="Search memes" autocomplete="off" aria-label="Search memes">
+        </label>
+      </div>
+      <div class="masonry" id="grid"></div>
+      <input type="file" id="file-input" accept="image/png,image/jpeg,image/webp,image/avif,image/gif,video/mp4,video/quicktime,video/webm" multiple hidden>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <a class="logo gold-text" href="#home" aria-label="$TONK">$TONK</a>
+    <button id="team-link" type="button">team</button>
+  </footer>
+
+  <div class="dropzone" id="dropzone" hidden><p>Drop to post</p></div>
+
+  <dialog class="modal viewer" id="viewer">
+    <button class="x-close" type="button" aria-label="Close">×</button>
+    <div class="v-body"></div>
+  </dialog>
+
+  <dialog class="modal" id="post-modal">
+    <button class="x-close" type="button" aria-label="Close">×</button>
+    <h3>Post memes</h3>
+    <p class="modal-sub">We fill in a title and description. Edit them before posting</p>
+    <ul class="post-list" id="post-list"></ul>
+    <button class="btn-gold big" id="post-go" type="button">Post meme</button>
+  </dialog>
+
+  <dialog class="modal" id="link-modal">
+    <button class="x-close" type="button" aria-label="Close">×</button>
+    <h3 id="link-title">Paste an image or link</h3>
+    <form id="link-form" class="link-form">
+      <input id="link-input" type="url" inputmode="url" autocomplete="off" required>
+      <button class="btn-gold" type="submit">Go</button>
+    </form>
+    <p class="link-error" id="link-error" role="alert"></p>
+  </dialog>
+
+  <dialog class="modal" id="team-modal">
+    <button class="x-close" type="button" aria-label="Close">×</button>
+    <h3>Team login</h3>
+    <p class="modal-sub">For deleting memes from the depot</p>
+    <form id="team-form" class="link-form">
+      <input id="team-code" type="password" autocomplete="current-password" placeholder="Passcode" required>
+      <button class="btn-gold" type="submit">Log in</button>
+    </form>
+    <p class="link-error" id="team-error" role="alert"></p>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

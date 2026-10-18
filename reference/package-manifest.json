@@ -1,0 +1,572 @@
+[
+  {
+    "path": ".cursor/rules/tonk.mdc",
+    "bytes": 399,
+    "sha256": "b2fdbf4535b52279a04fbb4d293281ae0ad355fa4784f7b29701cc5ff3bddf13"
+  },
+  {
+    "path": ".dockerignore",
+    "bytes": 72,
+    "sha256": "b9f8c2ed8cf28c04d4202c27cff9feedbe612d5d062a7d000c16706815eab6e1"
+  },
+  {
+    "path": ".env.example",
+    "bytes": 368,
+    "sha256": "95f15c4525703a45936f4fc479da08973548b1de33d9e03120272866b3911c41"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 112,
+    "sha256": "8bcc25a6bc2acb259e3465d41d98fce9cd1c7f844fc7c0d263ee837401cf7cab"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 1473,
+    "sha256": "4ded20b4c53a237f89d208325e1e612ac1ae7ac87d68117cdedd0b76c76fd4e4"
+  },
+  {
+    "path": "CURSOR_PROMPT.md",
+    "bytes": 3013,
+    "sha256": "e1fd5f7d136064d3585b898df4b04b28a538b6b09f854baeb2d125abfef40962"
+  },
+  {
+    "path": "Dockerfile",
+    "bytes": 1325,
+    "sha256": "45f9426553d87cda5b40b6df9d8f5dd76ce97637cab7784d8eed427af392bc3d"
+  },
+  {
+    "path": "README.md",
+    "bytes": 7843,
+    "sha256": "36ed024eae7c596595e8c3ccc22e7d54770c9659db63b58ffb798dcee8210da9"
+  },
+  {
+    "path": "START_WINDOWS.cmd",
+    "bytes": 744,
+    "sha256": "21b47561f4d3473f671ee08fd7407484abc62c2af52ee29d37c5bab6521567f5"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 1561,
+    "sha256": "29c8f32704ba77bdc8b4bbdd41f4230b86601a01219907be81de5ab5e4edd5df"
+  },
+  {
+    "path": "next-env.d.ts",
+    "bytes": 288,
+    "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+  },
+  {
+    "path": "next.config.ts",
+    "bytes": 544,
+    "sha256": "0a2809e9e0a93256d35703950b617ff6cb68bdc609ede2861f0842666cd9a49a"
+  },
+  {
+    "path": "package-lock.json",
+    "bytes": 45192,
+    "sha256": "836a05d467d3b287a1f7501981db27bd16546f8daf058d589d9123843ac90761"
+  },
+  {
+    "path": "package.json",
+    "bytes": 667,
+    "sha256": "d9140eba34f5e0194f5e95a29e220feb25f18ac1147bc46b241f369ff31e4e9e"
+  },
+  {
+    "path": "public/data/memes.json",
+    "bytes": 7725,
+    "sha256": "9dc538960eb2a640e50f1e16b0fc5e375bd26dc59fde5d6b06edb975f02c6dc8"
+  },
+  {
+    "path": "public/fonts/5899fe2dc0ce-DtVmJxC7WLEj1uIXEWAdil8s6zDX.woff2",
+    "bytes": 198804,
+    "sha256": "a80fdba1aa7ea9178ede565aec4602179f50b731a536da6e504446fa9a084de4"
+  },
+  {
+    "path": "public/fonts/5bc992e26d7a-DtVmJxC7WLEj1uIXEWAdilUs6zDX.woff2",
+    "bytes": 167724,
+    "sha256": "9186f2be83ed4a46b0aa9f921c0cd5324419c07a52bdd8383f99288df2f805b7"
+  },
+  {
+    "path": "public/fonts/5c9a610d05e7-DtVmJxC7WLEj1uIXEWAdilss6w.woff2",
+    "bytes": 309588,
+    "sha256": "a07c6f5aeac1488edd22d90c9f84767621acaec476aaf8983dd76e6b8539f09a"
+  },
+  {
+    "path": "public/fonts/68e24a368d0b-DtVmJxC7WLEj1uIXEWAdilks6zDX.woff2",
+    "bytes": 49664,
+    "sha256": "02bca7014d0f3bf7487cf66791796c75007206b625ce253a992ec6babee27826"
+  },
+  {
+    "path": "public/fonts/6e83888a67df-EYq0maZfwr9S9-ETZc3fKXt8UrOS43o.woff2",
+    "bytes": 31272,
+    "sha256": "55ba709384306ff2e9f71c914aed8688ba24c2a4c3e5cb67f12d038ca1deb73e"
+  },
+  {
+    "path": "public/fonts/7d93fdcde830-XLYgIZbkc4JPUL5CVArUVL0ntnAOSA.woff2",
+    "bytes": 53296,
+    "sha256": "770493d84cbb753cd0573d0f014550583138f40469d137e310d239593a1949d8"
+  },
+  {
+    "path": "public/fonts/98379468de48-XLYgIZbkc4JPUL5CVArUVL0ntn4OSEFt.woff2",
+    "bytes": 25196,
+    "sha256": "5ab1c7e4d8574a18090d98e945ebf7489d7120303eab111e0506470e1f82f2df"
+  },
+  {
+    "path": "public/fonts/Caveat-Brush-OFL.txt",
+    "bytes": 4444,
+    "sha256": "21b54eb0d7513524798a00dfbaf99a02c003a0012a728cc5f0e02d24c50482fb"
+  },
+  {
+    "path": "public/fonts/DM-Sans-OFL.txt",
+    "bytes": 4482,
+    "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+  },
+  {
+    "path": "public/fonts/Rubik-Dirt-OFL.txt",
+    "bytes": 4406,
+    "sha256": "f9e2d4498ea80d38bac7b8841d68af68c132fa67e1552e7c05717e6987de1d74"
+  },
+  {
+    "path": "public/fonts/Special-Elite-LICENSE.txt",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "public/fonts/c664a52137d5-DtVmJxC7WLEj1uIXEWAdilYs6zDX.woff2",
+    "bytes": 158136,
+    "sha256": "dd19714e52195e6c62184fef919a7361519e0bed408a0ca03cd37c52f869c32d"
+  },
+  {
+    "path": "public/fonts/d4ee5360ef83-rP2Hp2ywxg089UriCZOIHQ.woff2",
+    "bytes": 62724,
+    "sha256": "ca72d2bcea8f4daa783dbdfa2d9b46068c3ce38168e05918fb867aa453b4f890"
+  },
+  {
+    "path": "public/fonts/f72650ac2ea9-rP2Hp2ywxg089UriCZ2IHSeH.woff2",
+    "bytes": 31292,
+    "sha256": "5d18d31d23ada61ebee1d589b11d5da30db9e158f589d5e35221ba2b1a45de54"
+  },
+  {
+    "path": "public/fonts/fd5d48e15955-EYq0maZfwr9S9-ETZc3fKXt8XLOS.woff2",
+    "bytes": 67460,
+    "sha256": "1e1ef30f8b69c21206603097ad0ba68591539af68214f7cfb2fbd23991accd48"
+  },
+  {
+    "path": "public/fonts/fonts.css",
+    "bytes": 6436,
+    "sha256": "5e7143b273548d8a408663c3b56106bcd4c5ec5cd15c491fb12003405f4e7508"
+  },
+  {
+    "path": "public/img/favicon.png",
+    "bytes": 9865,
+    "sha256": "2b19845f0cc2d4b74137032c4ae407b1b6a6dfd78a4f0a98e538cddb5c70a86c"
+  },
+  {
+    "path": "public/img/hero.jpg",
+    "bytes": 201916,
+    "sha256": "0e828a95f38a3ed4f686bcfc0d682e8cb325e632d8387768bef8801b395eb03d"
+  },
+  {
+    "path": "public/img/icon-round.png",
+    "bytes": 70760,
+    "sha256": "0808451a3c977da9b9647b5cd5ea30473d9e37ed9e8d7ee33a3759adbf1857cb"
+  },
+  {
+    "path": "public/img/icon.png",
+    "bytes": 59762,
+    "sha256": "8137aa218a0ece343786ca32d7d75177719be48fde391da43155fc31e39c502b"
+  },
+  {
+    "path": "public/img/logo.png",
+    "bytes": 2131290,
+    "sha256": "57082b2b403a0c5bc5f7adbe0ede96f22ca58882c35189ba6364b35924d90e71"
+  },
+  {
+    "path": "public/img/moods/furious.jpg",
+    "bytes": 61272,
+    "sha256": "0c7c2784d9a4a6d6b47c988c4356d0b68d309b00f7ada1b545eabf41d51b9ab3"
+  },
+  {
+    "path": "public/img/moods/grumpy.jpg",
+    "bytes": 58379,
+    "sha256": "fc8e35f68cc25909fbc699580860c859648bf6061ca0592553374499bdbf1ff6"
+  },
+  {
+    "path": "public/img/moods/shocked.jpg",
+    "bytes": 60327,
+    "sha256": "54abc5152af6b4ed40bfde0dcc0a557d5e6b9f43e6abb0b786598a7bb617ff78"
+  },
+  {
+    "path": "public/img/moods/sleepy.jpg",
+    "bytes": 57908,
+    "sha256": "7474d75e7e676804227db262d28c73a980ea9614a5ad2e45618a89f1c2f96f61"
+  },
+  {
+    "path": "public/img/moods/smug.jpg",
+    "bytes": 58622,
+    "sha256": "235526b795ab0e465ad78e8e73e4e765c032e66aaa39d7ac420a1b26bed1cabe"
+  },
+  {
+    "path": "public/img/moods/suspicious.jpg",
+    "bytes": 59603,
+    "sha256": "9d74e983d5a6f80b865a673baa6aef60d7a3a9309ad4057bfb7e933063dbe923"
+  },
+  {
+    "path": "public/img/pfp.jpg",
+    "bytes": 243395,
+    "sha256": "b18118337972b94e2ee52b88f08ef0781c3497ff7ff1c73832f1a70718471780"
+  },
+  {
+    "path": "public/img/teaser-poster.jpg",
+    "bytes": 153115,
+    "sha256": "953f468be81ad795c1c769a6a0fb937f812a0f7989a0d8a74768356641dd941f"
+  },
+  {
+    "path": "public/media/2wqjl5hr317nf-tiny-tonk-cave-nap.jpg",
+    "bytes": 138764,
+    "sha256": "15f3e0123fb4a7f783287e696bc6ba59d167efc1d702b6dfdb83d56848cf77aa"
+  },
+  {
+    "path": "public/media/2wqjl6kbbursl-tonk-vs-the-orange-tree.mp4",
+    "bytes": 9866214,
+    "sha256": "f45dae45244be48d1a92a34fbaef13e57cb1c0e2b197e4b48746585d0892079d"
+  },
+  {
+    "path": "public/media/2wqjmltgvpoki-tonk-s-cliffside-cave-at-dawn.mp4",
+    "bytes": 5482252,
+    "sha256": "3c36218595120950d92d4a202452b5720ac3fa41452a90b6940569e0afa2cc96"
+  },
+  {
+    "path": "public/media/2wqjmmuphf1h4-tonk-tug-of-war-with-boar.png",
+    "bytes": 2446907,
+    "sha256": "92fd9dd9354784b0de4711c11289b2f60656fcaf876becb5f67e400d7e2a2f75"
+  },
+  {
+    "path": "public/media/2wqlycsezpebo-tonk-with-his-bag.jpg",
+    "bytes": 229525,
+    "sha256": "345073bdef462447d64bed5088024c13fe1da5c4c4504094052f20dfeeb44d0b"
+  },
+  {
+    "path": "public/media/2wqlycsujxrlh-tonk-bag-turnaround.jpg",
+    "bytes": 176120,
+    "sha256": "fb6a3dc6f4b6b52b80f3368096af20b4ad4fa8003e8842a5c12a8b370ea1b18e"
+  },
+  {
+    "path": "public/media/2wqlyctdbtjky-the-golden-tonk-medallion.jpg",
+    "bytes": 165337,
+    "sha256": "5d1729aca7d3c963e089b4357fa1b0b02e43456a631cbc6f81fead0b311e3bb6"
+  },
+  {
+    "path": "public/media/2wqlycu7e1ufz-tonk-character-turnaround-sheet.jpg",
+    "bytes": 367532,
+    "sha256": "05eb3ab155432f99ab85d436e393686e1365643542c979befbcf405e098276af"
+  },
+  {
+    "path": "public/media/2wqmdvazfr5oi-tonk-ready-for-battle.jpg",
+    "bytes": 363182,
+    "sha256": "bdb1d0e92e1c460b5a7ea2806cbc72627fd9bf37f3161025fe5446eed6b9cb82"
+  },
+  {
+    "path": "public/media/2wqmdvberubty-tonk-clubs-the-bear.jpg",
+    "bytes": 540884,
+    "sha256": "583afd5e50cf6e713b007055d2e431344076d3a0626795844605faa51cec171b"
+  },
+  {
+    "path": "public/media/2wqmdvjktkur7-tonk-stands-on-the-rugger.jpg",
+    "bytes": 353355,
+    "sha256": "150812af759358c2bcd39ce4d7ae7fb4e599d520fc0a8d66df41b40154c12a1b"
+  },
+  {
+    "path": "public/media/2wqmdvjz0t7sj-tonk-hammer-smash.jpg",
+    "bytes": 508678,
+    "sha256": "e0485c69c1bcf30652915659dd95dd53231571fbbf7fc85fab1f301e31b9d50a"
+  },
+  {
+    "path": "public/media/2wqmdvkimzmyn-tonk-points-from-his-tank.jpg",
+    "bytes": 334526,
+    "sha256": "0ddd856e2992d45ecb49260ce9dc08df1e2499bd0e7bd7856e29446d2d6cedec"
+  },
+  {
+    "path": "public/media/2wqmdvl1egmz4-tonk-charging-into-battle.jpg",
+    "bytes": 342056,
+    "sha256": "9cf396481b8b853f4ad065140e5c8a8e6d767627240217c03ba66d2f2058dc46"
+  },
+  {
+    "path": "public/media/2wqmdvlh8hoza-tonk-the-trading-desk-boss.jpg",
+    "bytes": 497991,
+    "sha256": "2ac1596504392dea2ed4ff771b53c09d979cf6e958bed67121d87c6aa68431b3"
+  },
+  {
+    "path": "public/media/2wqmdvlxie6qk-tonk-chilling-by-the-tank.jpg",
+    "bytes": 546843,
+    "sha256": "7ea7c5882c072a86967100a99c861e9c09554a759b00d8b38804c4b9a5f1390a"
+  },
+  {
+    "path": "public/media/2wqmdvmfgu93d-angry-tonk-stare.jpg",
+    "bytes": 545330,
+    "sha256": "0dfa7c9233bf10a02f7cc15516d314eb658b5b8c335a10d5fd43a763fbda47af"
+  },
+  {
+    "path": "public/media/2wqmdvmuxihkt-tonk-full-body-pose.jpg",
+    "bytes": 272493,
+    "sha256": "70d720c9e6656fe5acb4fccb0b5441eb0fdd2c06d203e61a75e4b53a2fc69bae"
+  },
+  {
+    "path": "public/media/2wqmdvnmzrfw3-tonk-character-sheet.jpg",
+    "bytes": 571060,
+    "sha256": "ca7c01492040743e90ee36d76b4324f02c1970d720e8f057a5daab2a3b863789"
+  },
+  {
+    "path": "public/media/posters/2wqjl6kbbursl.jpg",
+    "bytes": 66918,
+    "sha256": "e3f4f2b7f94cc7f8756d31cb1d722c4472faddd3b6c96f2257c6716fc6e6ebd1"
+  },
+  {
+    "path": "public/media/posters/2wqjmltgvpoki.jpg",
+    "bytes": 51012,
+    "sha256": "425152a3c63e228b063c8675ee4133a6c7cd4ffc379c3adc5ce46c9a2c346b1e"
+  },
+  {
+    "path": "public/runtime/address-bar.js",
+    "bytes": 1354,
+    "sha256": "04b3b8f7037cecc4549034767d045b77627d969671242e90ecd57405479aa451"
+  },
+  {
+    "path": "public/vendor/ffmpeg/FFmpeg-core-COPYING.GPLv2.txt",
+    "bytes": 18092,
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+  },
+  {
+    "path": "public/vendor/ffmpeg/FFmpeg-core-package.json",
+    "bytes": 943,
+    "sha256": "2d55b1f6df4c62955f286ae41b7ca6b27bb4165136ca7572d4101abe147695e0"
+  },
+  {
+    "path": "public/vendor/ffmpeg/FFmpeg-wrapper-LICENSE.txt",
+    "bytes": 1066,
+    "sha256": "3e123e29517d76504ffce77b3f8e2ccffd4712493f27694b0aba3e376676459f"
+  },
+  {
+    "path": "public/vendor/ffmpeg/classes.js",
+    "bytes": 9747,
+    "sha256": "7a829c898bdbc3a8806652a5502d9101178ce4e988a2c50b3abc1306ce4fc919"
+  },
+  {
+    "path": "public/vendor/ffmpeg/const.js",
+    "bytes": 998,
+    "sha256": "8571458451db87f782891d374a070bc0609c0c9eb1880d6a0b8b95d9f43165fb"
+  },
+  {
+    "path": "public/vendor/ffmpeg/core/ffmpeg-core.js",
+    "bytes": 111804,
+    "sha256": "67a48f11645f85439f3fde4f2119042c16b374b910206b7a7a24f342e28dcae3"
+  },
+  {
+    "path": "public/vendor/ffmpeg/core/ffmpeg-core.wasm",
+    "bytes": 32232419,
+    "sha256": "9f57947a5bd530d8f00c5b3f2cb2a3492faa7e5d823315342d6a8656d0a6b7b7"
+  },
+  {
+    "path": "public/vendor/ffmpeg/errors.js",
+    "bytes": 332,
+    "sha256": "619310d7ef5fe5fefa0a31927db862b7c291713cfef4d71753fa8aafd18f4db6"
+  },
+  {
+    "path": "public/vendor/ffmpeg/index.js",
+    "bytes": 58,
+    "sha256": "cad19572420f7ead17272082d9582ebaed7f2856e19875542f83daf8d25d3b5d"
+  },
+  {
+    "path": "public/vendor/ffmpeg/types.js",
+    "bytes": 295,
+    "sha256": "72f80e6fd44fcd18b55c9a0deb3bc70b9bb37480cf969045ca4521f5a11300f5"
+  },
+  {
+    "path": "public/vendor/ffmpeg/utils.js",
+    "bytes": 138,
+    "sha256": "8c2e0e16445f8d3a0acbb812f2c60541a92c88ed0bf9ffe96c52e7fb6c8b1d72"
+  },
+  {
+    "path": "public/vendor/ffmpeg/worker.js",
+    "bytes": 5085,
+    "sha256": "feff0ac937ea225e997e1fae997a74f8b8d572423a526da59eb56624b1f3cde7"
+  },
+  {
+    "path": "public/video/tonk-teaser-v1.mp4",
+    "bytes": 32025506,
+    "sha256": "ff15947dae8487d35dd3731ff3c128cdf00d7bf29dee4aa33d40d413894566fe"
+  },
+  {
+    "path": "reference/asset-sources.json",
+    "bytes": 40243,
+    "sha256": "98690ca50b26d0fdf44bdb85c7bde591ba69e8a0b51c8f1c7f3842d76b9b2838"
+  },
+  {
+    "path": "reference/original-public-source/api/memes.json",
+    "bytes": 11410,
+    "sha256": "13d9fa771037fd625eb89a8590b432e67611d66e103cddddbce6980af86affb0"
+  },
+  {
+    "path": "reference/original-public-source/gallery.js",
+    "bytes": 23225,
+    "sha256": "8d0fd65006e9340d5e691f7219b21a48150e3462e73092eca107a06c0f41133c"
+  },
+  {
+    "path": "reference/original-public-source/index.html",
+    "bytes": 10893,
+    "sha256": "8ee51726d9e9840e4b80724756419c1d12ba6ff83249b0ce31e0d7651689210d"
+  },
+  {
+    "path": "reference/original-public-source/main.js",
+    "bytes": 2453,
+    "sha256": "a0b99a9c875036d18f48d15e26de9aff18cd5993488a978c8cd136a8e8a57f8b"
+  },
+  {
+    "path": "reference/original-public-source/meme-path.js",
+    "bytes": 2352,
+    "sha256": "4d928d6f6ecb5b74c6c85a7d53845cecc821adda9619adcf2122910acf9e6133"
+  },
+  {
+    "path": "reference/original-public-source/process.js",
+    "bytes": 7049,
+    "sha256": "abeb3907881b1ad30335225b1db6de42a85f3c186e67ea1c934d3abb4b05df0d"
+  },
+  {
+    "path": "reference/original-public-source/style.css",
+    "bytes": 27935,
+    "sha256": "a1a2b125e7aa5515f6f83823281b40dd8c359f170d3f06d5db66a25ac1395c58"
+  },
+  {
+    "path": "reference/original-public-source/vendor/blob-client.js",
+    "bytes": 117904,
+    "sha256": "a982040955bb87ab3318b7f3f51d8ce6c3edbb5a13ba608ea5de15380833862b"
+  },
+  {
+    "path": "reference/uploaded-file-map.json",
+    "bytes": 8077,
+    "sha256": "e4c9588b8204dde85e498921778bf1206e32a57697ec47c7db42d85b972dccdd"
+  },
+  {
+    "path": "reference/verification.json",
+    "bytes": 1761,
+    "sha256": "4393fda454e9db82b0e340f5113084b75e2f33dde8e78bf356a313da79d6b47d"
+  },
+  {
+    "path": "scripts/verify-assets.mjs",
+    "bytes": 4010,
+    "sha256": "8908a5a667e765522c3d6913cb30dbf2c39180f40fd9a5a6e6a877d6b5981860"
+  },
+  {
+    "path": "src/app/api/[...path]/route.ts",
+    "bytes": 286,
+    "sha256": "17c2e2026bc55eb14b7bc607982519bcb46bab710ca55e7e3a92fad79d79c997"
+  },
+  {
+    "path": "src/app/globals.css",
+    "bytes": 27935,
+    "sha256": "a1a2b125e7aa5515f6f83823281b40dd8c359f170d3f06d5db66a25ac1395c58"
+  },
+  {
+    "path": "src/app/layout.tsx",
+    "bytes": 1253,
+    "sha256": "1e8e130c06e8d6dc3bfdccf6e8e39a0b7f17cc586117e32fbe1b066a67c405a4"
+  },
+  {
+    "path": "src/app/overrides.css",
+    "bytes": 322,
+    "sha256": "d906bf76508ae6c04fa011e89829613afc4ca50742fc2ef309df14c8238368c7"
+  },
+  {
+    "path": "src/app/page.tsx",
+    "bytes": 464,
+    "sha256": "72d8b41c1f30c272d0595ce90362f83d02a36cde2f760abefc396063f6df2abb"
+  },
+  {
+    "path": "src/app/uploads/[name]/route.ts",
+    "bytes": 286,
+    "sha256": "6c1293002ae33ce933e4ed840c6baa4d2d56312d9740c9a15dbebab4c031623b"
+  },
+  {
+    "path": "src/components/Brand.tsx",
+    "bytes": 418,
+    "sha256": "d599adfaadf03deb2aca9c1c9505dfe36e74e0871096000b6a9844987daf8ce1"
+  },
+  {
+    "path": "src/components/BrowserBar.tsx",
+    "bytes": 1839,
+    "sha256": "35909e8033777f5b843d96a83e16d5236c7a7bd7243d396d4fd5da36c119108a"
+  },
+  {
+    "path": "src/components/Footer.tsx",
+    "bytes": 165,
+    "sha256": "b487c2deccaa9941c58db1c74942690473e2adedbb16ffd7e41594731b5c0fb4"
+  },
+  {
+    "path": "src/components/Hero.tsx",
+    "bytes": 3576,
+    "sha256": "98c65b32c61c03883a9ec3ba0465fcea5b9c5c1a8740b564983caf89a40ca1d4"
+  },
+  {
+    "path": "src/components/MeetSection.tsx",
+    "bytes": 425,
+    "sha256": "2889a1cdeef062309787d428a8e4070fa957545fd8a65ab7a2c444055b840362"
+  },
+  {
+    "path": "src/components/MemeDepot.tsx",
+    "bytes": 4324,
+    "sha256": "3945f097a8923331e7837e44042ba5004e4f8491f17d6790251765e36b034938"
+  },
+  {
+    "path": "src/components/WorldSection.tsx",
+    "bytes": 927,
+    "sha256": "44bdb89e46ac102dbaf065e610c129b8059913b72cbadb2f3b576ab57c5b004d"
+  },
+  {
+    "path": "src/config/site.ts",
+    "bytes": 1534,
+    "sha256": "bcf21bd81f5885f00e234174c68f658481bd7bb74ffbe0e229b50fc244e45539"
+  },
+  {
+    "path": "src/lib/client/gallery-controller.js",
+    "bytes": 24033,
+    "sha256": "e551250b86e4ffef8102b216fb5d68f6a98417113cc1d6eff73b40739749110e"
+  },
+  {
+    "path": "src/lib/client/local-upload.js",
+    "bytes": 1015,
+    "sha256": "91624a1092f57ee78bb0e30ff4759fdfba8a9f1110f9e260cc39404e07ef3871"
+  },
+  {
+    "path": "src/lib/client/process.js",
+    "bytes": 7105,
+    "sha256": "ce2ec5f624e91fd1c6bf30f8d7b955fe552968f2c5bd1e2667f13ba13ea185ad"
+  },
+  {
+    "path": "src/lib/server/gallery-handler.mjs",
+    "bytes": 9075,
+    "sha256": "55b834170496cdb4ba1da39a52526619c25ef206e197affa605f2ef1fa20c767"
+  },
+  {
+    "path": "src/lib/server/gallery.ts",
+    "bytes": 573,
+    "sha256": "2eea1751d8b7e2104f15ce458c30064ff4989b0a96f615ef371ca6aee23245c8"
+  },
+  {
+    "path": "src/lib/shared/meme-path.js",
+    "bytes": 2352,
+    "sha256": "4d928d6f6ecb5b74c6c85a7d53845cecc821adda9619adcf2122910acf9e6133"
+  },
+  {
+    "path": "src/lib/shared/token-settings.mjs",
+    "bytes": 637,
+    "sha256": "8a1460b211a445042dcd95dbf8ba3bb4c31387a4dbcb02b7bc93473c5e67622b"
+  },
+  {
+    "path": "tests/gallery.test.mjs",
+    "bytes": 5796,
+    "sha256": "a6b033e032e1622fd47e1cec981d11f69ef3c93685a32f005f12c46d6d59ce5b"
+  },
+  {
+    "path": "tsconfig.json",
+    "bytes": 678,
+    "sha256": "44adddcc27ec521367d249f6b617506baa239eaaa99246b4347b4ad8eca741f1"
+  }
+]

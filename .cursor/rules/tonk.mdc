@@ -1,0 +1,6 @@
+---
+description: Preserve the TONK reference design and Next.js implementation
+alwaysApply: true
+---
+
+Read AGENTS.md and README.md. Preserve the original stylesheet and local assets. Work in the existing Next.js project; do not redesign or change frameworks. Keep the Ethereum CA configurable and blank until supplied. Run the required checks and distinguish browser QA from build/API verification.

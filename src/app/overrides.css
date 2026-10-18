@@ -1,0 +1,4 @@
+/* Only the requested image-logo substitution. Original layout rules live in globals.css. */
+.logo.brand-custom { position: relative; display: inline-block; }
+.brand-spacer { visibility: hidden; }
+.brand-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: left center; }
