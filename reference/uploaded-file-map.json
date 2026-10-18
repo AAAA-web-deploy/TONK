@@ -8,8 +8,8 @@
   {
     "uploaded_filename": "2wqmdvazfr5oi~image~1728x1152~dG9uayByZWFkeSBmb3IgYmF0dGxl~VE9OSyByZXN0cyBoaXMgJCBjbHViIG9uIGhpcyBzaG91bGRlciB3aXRoIGEgc211ZyBncmluLCB3ZWFyaW5nIGhpcyBTVE9OSyBtZWRhbGxpb24gYmVzaWRlIGhpcyBiYXR0ZXJlZCBncmVlbiB0YW.jpg",
     "packaged_path": "public/media/2wqmdvazfr5oi-tonk-ready-for-battle.jpg",
-    "sha256": "bdb1d0e92e1c460b5a7ea2806cbc72627fd9bf37f3161025fe5446eed6b9cb82",
-    "bytes": 363182
+    "sha256": "b935e435ac86171937f58a6ae73f66490997d8df601bec9778dbabe5c22bf3af",
+    "bytes": 277215
   },
   {
     "uploaded_filename": "2wqmdvmfgu93d~image~1408x1408~YW5ncnkgdG9uayBzdGFyZQ~Q2xvc2UtdXAgb2YgdGlueSBUT05LIHNjb3dsaW5nIGZ1cmlvdXNseSBhdCB0aGUgY2FtZXJhLCB3aWxkIHdoaXRlIGhhaXIsIGxlb3BhcmQgcGVsdCBhbmQgZ29sZCAkVE9OSyBtZWRhbGxpb24gb24gYSBi.jpg",
@@ -44,14 +44,14 @@
   {
     "uploaded_filename": "2wqmdvmuxihkt~image~1728x1152~dG9uayBmdWxsIGJvZHkgcG9zZQ~VE9OSyBzdGFuZHMgd2l0aCBoaXMgJCBjbHViIG9uIGhpcyBzaG91bGRlciBhbmQgYSBkZXRlcm1pbmVkIGdsYXJlLCB3ZWFyaW5nIGhpcyBnb2xkIFNUT05LIG1lZGFsbGlvbiwgbGVvcGFyZCBwZWx0.jpg",
     "packaged_path": "public/media/2wqmdvmuxihkt-tonk-full-body-pose.jpg",
-    "sha256": "70d720c9e6656fe5acb4fccb0b5441eb0fdd2c06d203e61a75e4b53a2fc69bae",
-    "bytes": 272493
+    "sha256": "d7afa6f5b6d04b183193e467ce30edd86401074ef201045ddb3f8a9909834cb1",
+    "bytes": 205196
   },
   {
     "uploaded_filename": "2wqmdvberubty~image~1728x1152~dG9uayBjbHVicyB0aGUgYmVhcg~VE9OSyB3aW5kcyB1cCBoaXMgJCBjbHViIHRvIHNtYWNrIGEgYmlnIGJyb3duIGJlYXIsIGhpcyBnb2xkIFNUT05LIG1lZGFsbGlvbiBzd2luZ2luZywgc2V0IGFnYWluc3QgYSBkYXJrIGJhY2tncm91.jpg",
     "packaged_path": "public/media/2wqmdvberubty-tonk-clubs-the-bear.jpg",
-    "sha256": "583afd5e50cf6e713b007055d2e431344076d3a0626795844605faa51cec171b",
-    "bytes": 540884
+    "sha256": "66f61c3cec4cfefe6993a3e9d0e1f0b64ad4ee9c5294a0c63b1d7a77372e68a9",
+    "bytes": 384112
   },
   {
     "uploaded_filename": "furious.jpg",
@@ -104,14 +104,14 @@
   {
     "uploaded_filename": "2wqmdvkimzmyn~image~1728x1152~dG9uayBwb2ludHMgZnJvbSBoaXMgdGFuaw~VGlueSBUT05LIHNpdHMgYXRvcCBoaXMgYmF0dGVyZWQgZ3JlZW4gJFRPTksgdGFuayB3aXRoIGhpcyAkIGNsdWIgb24gaGlzIHNob3VsZGVyLCBnbGFyaW5nIGFuZCBwb2ludGluZyBzdHJh.jpg",
     "packaged_path": "public/media/2wqmdvkimzmyn-tonk-points-from-his-tank.jpg",
-    "sha256": "0ddd856e2992d45ecb49260ce9dc08df1e2499bd0e7bd7856e29446d2d6cedec",
-    "bytes": 334526
+    "sha256": "da8a12629ab54d9efc54e4000dfeabf1c990fbfa49eb5e9dc6bce6ffa3675357",
+    "bytes": 259403
   },
   {
     "uploaded_filename": "logo.png",
     "packaged_path": "public/img/logo.png",
-    "sha256": "57082b2b403a0c5bc5f7adbe0ede96f22ca58882c35189ba6364b35924d90e71",
-    "bytes": 2131290
+    "sha256": "0bd7b2ee1fb795c236269995b91c29f8e8efb548c45b29d1620c800ea2d43c0c",
+    "bytes": 2385193
   },
   {
     "uploaded_filename": "2wqmdvjz0t7sj~image~1338x1672~dG9uayBoYW1tZXIgc21hc2g~VE9OSyBzd2luZ3MgYSBnaWFudCAkU1RPTksgbWFsbGV0IGRvd24gb250byBhIHdvb2RlbiBjcmF0ZSBzdGFtcGVkICRTVE9OSywgc2VuZGluZyBkdXN0IGFuZCBzcGxpbnRlcnMgZmx5aW5nIGluIGEgZml.jpg",
@@ -128,8 +128,8 @@
   {
     "uploaded_filename": "2wqmdvnmzrfw3~image~1448x1086~dG9uayBjaGFyYWN0ZXIgc2hlZXQ~VE9OSyBjaGFyYWN0ZXIgc2hlZXQgd2l0aCB0dXJuYXJvdW5kIHZpZXdzLCBmaXZlIGV4cHJlc3Npb25zLCBoaXMgY2x1YiwgbWVkYWxsaW9uLCBib290cyBhbmQgdGFuaywgcGx1cyB0cmFkZXIsIGJ.jpg",
     "packaged_path": "public/media/2wqmdvnmzrfw3-tonk-character-sheet.jpg",
-    "sha256": "ca7c01492040743e90ee36d76b4324f02c1970d720e8f057a5daab2a3b863789",
-    "bytes": 571060
+    "sha256": "37d41fc33d22f3ece415755b43d1ed1e014aab89be0c6b875cb524a65989c81f",
+    "bytes": 548726
   },
   {
     "uploaded_filename": "2wqmdvjktkur7~image~1728x1152~dG9uayBzdGFuZHMgb24gdGhlIHJ1Z2dlcg~VE9OSyBzdGFuZHMgdHJpdW1waGFudGx5IHdpdGggaGlzICQgY2x1YiBvbiBhIGRlZmVhdGVkIG1hbiBpbiBhIFJVRyBzaGlydCBseWluZyBmYWNlIGRvd24sIGhpcyBTVE9OSyBtZWRhbGxp.jpg",
