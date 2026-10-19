@@ -1,4 +1,20 @@
-/* Only the requested image-logo substitution. Original layout rules live in globals.css. */
-.logo.brand-custom { position: relative; display: inline-block; }
-.brand-spacer { visibility: hidden; }
-.brand-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: left center; }
+/* Logo lockup, social links, and contract copy. Original layout rules live in globals.css. */
+.logo.brand-lockup { display: inline-flex; align-items: center; gap: 12px; width: auto; }
+.brand-mark { width: 54px; height: 54px; flex: none; object-fit: cover; border-radius: 50%; }
+.brand-words { display: flex; flex-direction: column; line-height: .9; }
+.brand-name, .brand-ticker { font-family: 'Caveat Brush', var(--sans); font-weight: 400; letter-spacing: .02em; text-transform: uppercase; }
+.brand-ticker { font-size: 42px; }
+.brand-name { font-size: 28px; }
+.foot .brand-mark { width: 72px; height: 72px; }
+.foot .brand-name { font-size: 34px; }
+.foot .brand-ticker { font-size: 42px; }
+.nav-socials { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+#copy-ca { border: 0; }
+#copy-ca:disabled { cursor: default; opacity: .6; }
+.nav-social { padding: 13px 18px 12px; font-size: 15px; }
+@media (max-width: 760px) {
+  .brand-mark { width: 44px; height: 44px; }
+  .brand-ticker { font-size: 32px; }
+  .nav-menu { margin-left: 0; }
+  .nav-social { padding: 10px 12px 9px; font-size: 13px; }
+}

@@ -1,10 +1,13 @@
 import { siteConfig } from '@/config/site'
 
-export function Brand() {
-  const custom = siteConfig.brand.logoMode === 'image'
+export function Brand({ place = 'nav' }: { place?: 'nav' | 'foot' }) {
   return (
-    <a className={`logo gold-text${custom ? ' brand-custom' : ''}`} href="#home" aria-label="$TONK">
-      {custom ? <><span className="brand-spacer" aria-hidden="true">$TONK</span><img className="brand-image" src={siteConfig.brand.logo} alt="$TONK" /></> : '$TONK'}
+    <a className={`logo brand-lockup${place === 'foot' ? ' brand-foot' : ''}`} href="#home" aria-label="Tonkereum $TONK">
+      <img className="brand-mark" src={siteConfig.brand.logo} alt="" />
+      <span className="brand-words gold-text">
+        {place === 'foot' ? <span className="brand-name">Tonkereum</span> : null}
+        <span className="brand-ticker">$TONK</span>
+      </span>
     </a>
   )
 }
