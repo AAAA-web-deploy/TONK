@@ -34,7 +34,7 @@ export function Hero() {
           <p className="eyebrow">{siteConfig.hero.eyebrow}</p>
           <h1 className="headline gold-text">{siteConfig.hero.headline[0]}<br /><span>{siteConfig.hero.headline[1]}</span></h1>
           <div className="story">
-            <p>He thinks he’s <b>STONK</b>.</p><p>He’s not.</p><p>Everyone calls him <b>$TONK</b></p><p>Some even call him tiny <b>$TONK</b></p><p>He fucking hates that.</p>
+            <p>He found Ethereum.</p><p>Still hasn’t found fire.</p><p>The tribe calls him <b>$Tonk</b>.</p><p>Some still call him tiny.</p><p>He fucking hates that.</p>
           </div>
           <div className="hero-cta">
             <a className="btn-rough" href="#meet">Meet TONK <span aria-hidden="true">→</span></a>

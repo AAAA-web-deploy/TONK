@@ -9,10 +9,10 @@ export const viewport: Viewport = { width: 'device-width', initialScale: 1 }
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl || 'http://localhost:3000'),
   title: '$TONK',
-  description: 'Small caveman. Big problems. He thinks he’s STONK.',
+  description: 'Small caveman. Big ETH energy. He found Ethereum. Still hasn’t found fire.',
   ...(siteConfig.siteUrl ? { alternates: { canonical: siteConfig.siteUrl } } : {}),
   icons: { icon: siteConfig.brand.logo, apple: siteConfig.brand.logo },
-  openGraph: { type: 'website', siteName: '$TONK', title: '$TONK', description: 'He thinks he’s STONK. He’s not.', images: [{ url: siteConfig.brand.logo }], ...(siteConfig.siteUrl ? { url: siteConfig.siteUrl } : {}) },
+  openGraph: { type: 'website', siteName: '$TONK', title: '$TONK', description: 'He found Ethereum. Still hasn’t found fire.', images: [{ url: siteConfig.brand.logo }], ...(siteConfig.siteUrl ? { url: siteConfig.siteUrl } : {}) },
   twitter: { card: 'summary_large_image', title: '$TONK', images: ['/img/hero.jpg'] },
 }
 

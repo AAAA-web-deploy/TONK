@@ -17,8 +17,8 @@ export const siteConfig = {
     logoMode: (process.env.NEXT_PUBLIC_LOGO_MODE || 'image') as 'image' | 'wordmark',
   },
   hero: {
-    eyebrow: 'Meet $TONK',
-    headline: ['Small caveman.', 'Big problems.'],
+    eyebrow: 'Meet Tonkereum',
+    headline: ['Small caveman.', 'Big ETH energy.'],
     artLabel: 'TONK walking through a dusty canyon at sunset, carrying his bag',
   },
   moods: [
