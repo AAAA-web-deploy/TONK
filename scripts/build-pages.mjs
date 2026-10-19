@@ -17,7 +17,7 @@ const run = (cwd, command, args) => new Promise((done, reject) => {
     env: {
       ...process.env,
       GITHUB_PAGES: 'true',
-      NEXT_PUBLIC_BASE_PATH: process.env.NEXT_PUBLIC_BASE_PATH || '/TONK',
+      NEXT_PUBLIC_BASE_PATH: process.env.NEXT_PUBLIC_BASE_PATH ?? '',
     },
   })
   child.on('exit', code => code === 0 ? done() : reject(new Error(`${command} exited ${code}`)))

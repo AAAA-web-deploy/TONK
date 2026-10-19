@@ -27,9 +27,9 @@ jobs:
       - run: npm run build:pages
         env:
           GITHUB_PAGES: "true"
-          NEXT_PUBLIC_BASE_PATH: /TONK
-          NEXT_PUBLIC_SITE_URL: https://aaaa-web-deploy.github.io/TONK/
-          NEXT_PUBLIC_ADDRESS_BAR_LABEL: tonkfun.xyz
+          NEXT_PUBLIC_BASE_PATH: ""
+          NEXT_PUBLIC_SITE_URL: https://tonkereum.site/
+          NEXT_PUBLIC_ADDRESS_BAR_LABEL: tonkereum.site
           NEXT_PUBLIC_LOGO_MODE: image
       - uses: actions/upload-pages-artifact@v3
         with:

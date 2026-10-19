@@ -1,8 +1,12 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises'
 import { extname, join, resolve } from 'node:path'
 
-const base = process.env.NEXT_PUBLIC_BASE_PATH || '/TONK'
+const base = process.env.NEXT_PUBLIC_BASE_PATH || ''
 const out = resolve('out')
+if (!base) {
+  console.log('Pages site is served from the domain root, so asset paths stay unchanged.')
+  process.exit(0)
+}
 const roots = ['img', 'fonts', 'media', 'video', 'runtime', 'data', 'vendor', 'uploads', '_next']
 const textExtensions = new Set(['.html', '.css', '.js', '.json', '.txt', '.svg'])
 
