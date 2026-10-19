@@ -6,7 +6,7 @@ export const siteConfig = {
     chain: 'Ethereum mainnet',
     chainId: 1,
     // Set NEXT_PUBLIC_TOKEN_CA in .env.local, or enter your actual CA here.
-    contractAddress: process.env.NEXT_PUBLIC_TOKEN_CA || '',
+    contractAddress: process.env.NEXT_PUBLIC_TOKEN_CA || '0xed5d33a9da16048f68649f5fbe58c4455c91fecc',
     tradeUrl: process.env.NEXT_PUBLIC_TRADE_URL || '',
   },
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || '',

@@ -31,6 +31,7 @@ jobs:
           NEXT_PUBLIC_SITE_URL: https://tonkereum.site/
           NEXT_PUBLIC_ADDRESS_BAR_LABEL: tonkereum.site
           NEXT_PUBLIC_LOGO_MODE: image
+          NEXT_PUBLIC_TOKEN_CA: "0xed5d33a9da16048f68649f5fbe58c4455c91fecc"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
